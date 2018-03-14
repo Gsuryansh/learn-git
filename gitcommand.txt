@@ -13,3 +13,6 @@
 7 git add file name (To add your file name in the git)
 
 8 git commit -m (To commit your change to your local git repo)
+
+9 git push origin master(To commit your local change to the remote repository)
+
