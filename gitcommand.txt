@@ -6,3 +6,10 @@
 
 4 git config --global --list(Check user name and email hase been registered)
 
+5 git clone your url (To clone your github repository to your system)
+
+6 git status (To tell you the status of your git workspace)
+
+7 git add file name (To add your file name in the git)
+
+8 git commit -m (To commit your change to your local git repo)
