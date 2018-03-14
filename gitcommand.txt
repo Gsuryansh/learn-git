@@ -1,0 +1,8 @@
+1 git version (it will tell the git version installed on your machine)
+
+2 git config --global user.name "Suryansh Gupta"(Register your user name)
+
+3 git config --global user.email "gupta.surya123@gmail.com"(Register your email)
+
+4 git config --global --list(Check user name and email hase been registered)
+
