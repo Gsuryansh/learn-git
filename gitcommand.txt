@@ -21,3 +21,13 @@
 10 git init project-name(It will creat new empty git repository for your fresh project)
 
        git init (It will initialize the git repository using your current working directory)
+	   
+11 git pull origin master (It will update your local directory with the remote directory)
+
+12 git commit -am(It will directly commit from directory to commit bypassing the git staging area)
+                
+               here a stands for add to staging area and m stands for commit message.	
+
+13 git ls-file(It will give you all the file that git is tracking)
+
+14 git reset HEAD file name (It will move the file form git staging area to git working directory)			   
