@@ -1,0 +1,40 @@
+1.sudo find / -type d -iname "nose2_html_report"(To check for particula directory is present or not)
+
+2.cp /home/deploy/html_report.py* . (To copy html_report.py file from home/deploy to the current directory)
+
+3.  pwd (Print Working directory)
+
+4.  cd (to change from current directory to home directory)
+
+5.  ps -ef|grep jpos(To know the running process)
+
+6   rm file name (will delete the mention file in the current directory)
+
+7.  vi file name to open file in linux.
+
+8.  :q to exit vi mode.
+
+9.  esc+shift+g will jump to the end of the file
+
+10. gg will jump to the start of the file.
+
+11. rm -rf directory name (It will remove the mention directory without any prompt)
+
+12. press i to modify file in vi mode after press esc and press :wq to save the changes.
+
+13  mv command: It will move a file from one folder to another and it is also used to rename the file there is no seperate command to rename
+                rename the file or folder in linux.
+
+Example of mv command:-  
+
+                       1. mv file.txt file1.txt (It will rename the file.txt to file1.txt if file1.txt is not present
+					                             else it will replace the content of file1.txt with file.txt and file.txt will be removed)
+												 
+					   2. 						 
+					   
+					   
+14 ls (It will tell all the file and folder in your directory)
+
+     ls-al(It will tell all the file and folder in your directory including .file)					   
+					   
+
