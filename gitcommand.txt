@@ -13,6 +13,8 @@
 7  git add file name (To add your file name in the git)
 
       git add . (It will add all the file in the staging area)
+	  git add -A(It will recursively add the file but also upadte any file that has been rename updated or deleted)
+	  git add -u(It will update the git index)
 
 8  git commit -m (To commit your change to your local git repo)
 
@@ -32,4 +34,6 @@
 
 14 git reset HEAD file name (It will move the file form git staging area to git working directory)
 
-15 			   
+15 git checkout -- filename(It will discard the changes you have done in the file)
+
+16 

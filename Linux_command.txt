@@ -46,11 +46,13 @@
 15 cp Commands:
 
               1.cp [option] source destination
-                             example: cp file_name destination 
+                             example: cp /d/bank_detail /d/readme/(it copy a file bank_detail from d drive to d/readme/ folder) 
               2. cp -a copy archive file
 
               3. cp -i interactive copy.
               
-              4. cp -R recursive copy.			  
+              4. cp -R recursive copy.
+
+16 cat > filename.txt(It will creat the text file)			  
 					   
 
