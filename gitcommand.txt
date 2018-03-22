@@ -30,4 +30,6 @@
 
 13 git ls-file(It will give you all the file that git is tracking)
 
-14 git reset HEAD file name (It will move the file form git staging area to git working directory)			   
+14 git reset HEAD file name (It will move the file form git staging area to git working directory)
+
+15 			   

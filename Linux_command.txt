@@ -1,6 +1,6 @@
-1.sudo find / -type d -iname "nose2_html_report"(To check for particula directory is present or not)
+1.  sudo find / -type d -iname "nose2_html_report"(To check for particula directory is present or not)
 
-2.cp /home/deploy/html_report.py* . (To copy html_report.py file from home/deploy to the current directory)
+2.  cp /home/deploy/html_report.py* . (To copy html_report.py file from home/deploy to the current directory)
 
 3.  pwd (Print Working directory)
 
@@ -12,7 +12,13 @@
 
 7.  vi file name to open file in linux.
 
-8.  :q to exit vi mode.
+8.  vi commands: 
+                press shift+i to enter in edit mode in vi editor
+				press esc to come out from edit mode.
+				press :q to quit vi editor
+				press :q! quit vi editor without saving the changes
+				press :w to save the changes
+				press :wq to save and quit the vi editor.
 
 9.  esc+shift+g will jump to the end of the file
 
@@ -25,7 +31,7 @@
 13  mv command: It will move a file from one folder to another and it is also used to rename the file there is no seperate command to rename
                 rename the file or folder in linux.
 
-Example of mv command:-  
+    Example of mv command:-  
 
                        1. mv file.txt file1.txt (It will rename the file.txt to file1.txt if file1.txt is not present
 					                             else it will replace the content of file1.txt with file.txt and file.txt will be removed)
@@ -33,8 +39,8 @@ Example of mv command:-
 					   2. 						 
 					   
 					   
-14 ls (It will tell all the file and folder in your directory)
+14  ls (It will list all the file and folder in your directory)
 
-     ls-al(It will tell all the file and folder in your directory including .file)					   
+     ls-al(It will list all the file and folder in your directory including .file)					   
 					   
 
