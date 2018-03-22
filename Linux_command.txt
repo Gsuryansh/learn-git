@@ -41,6 +41,16 @@
 					   
 14  ls (It will list all the file and folder in your directory)
 
-     ls-al(It will list all the file and folder in your directory including .file)					   
+     ls-al(It will list all the file and folder in your directory including .file)
+
+15 cp Commands:
+
+              1.cp [option] source destination
+                             example: cp file_name destination 
+              2. cp -a copy archive file
+
+              3. cp -i interactive copy.
+              
+              4. cp -R recursive copy.			  
 					   
 
