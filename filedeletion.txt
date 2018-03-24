@@ -1,0 +1,3 @@
+git rm file_name(It will delete the file from git staging area )
+      if you want to recover the file use (git reset HEAD file_name )it will undelete the file but will not recover in the file system
+      to recove in the file system use (git checkout -- file_name)

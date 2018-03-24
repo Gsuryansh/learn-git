@@ -53,6 +53,10 @@
               
               4. cp -R recursive copy.
 
-16 cat > filename.txt(It will creat the text file)			  
+16 cat > filename.txt(It will creat the text file)
+
+17 cat filename(It will show the content of the file)
+
+18 cat -n filename(It will display line number also)			  
 					   
 

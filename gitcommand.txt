@@ -32,7 +32,7 @@
 
 13 git ls-file(It will give you all the file that git is tracking)
 
-14 git reset HEAD file name (It will move the file form git staging area to git working directory)
+14 git reset HEAD file name (It will move the file form git staging area to git working directory but it will not pullout the changes you have done in the file)
 
 15 git checkout -- filename(It will discard the changes you have done in the file)
 
