@@ -57,6 +57,12 @@
 
 17 cat filename(It will show the content of the file)
 
-18 cat -n filename(It will display line number also)			  
+18 cat -n filename(It will display line number also)
+
+19 touch command:
+
+                1. touch filename1 filename2 filename3 (It will creat the filename1,filename2,filename3 if not exist otherwise it will change the time stamp of the file but not overwrite the file by default)	
+
+                2. 				
 					   
 

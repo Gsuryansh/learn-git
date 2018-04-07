@@ -1,0 +1,17 @@
+GIT COMPARISION COMMAND:-
+  
+                COMPARISION B/W WORKING DIRECTORY AND GIT STATGING AREA:-
+								1. git diff (It will tell the difference in the file in working directory to the file in the git staging area)
+								2. git difftool(it will open the file in working and the file in staging area if diff tool is configured.)
+							
+							
+							
+				COMPARISION B/W WORKING DIRECTORY AND GIT LAST COMMIT:-			
+								1. git diff HEAD (It will tell the difference in warking directory and last commit)	
+
+								2. git difftool HEAD(It will open the diff tool for comparision)
+								
+				
+                COMPARISION B/W GIT STATGING AREA AND GIT LAST COMMIT:-		
+                                1. git diff --STAGED HEAD
+                                2. git difftool --STAGED HEAD 								

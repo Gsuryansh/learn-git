@@ -1,3 +1,8 @@
-git rm file_name(It will delete the file from git staging area )
+git rm file_name(It will delete the file from git staging area and you can directly commit the changes) 
       if you want to recover the file use (git reset HEAD file_name )it will undelete the file but will not recover in the file system
-      to recove in the file system use (git checkout -- file_name)
+      to recover in the file system use (git checkout -- file_name)
+	  
+	  
+	  
+rm file (it will delete the file in the working directory and you can not directly commit the changes before that you need to update the git working directory area)
+         git add -A(update the git working directory area)

@@ -1,0 +1,13 @@
+
+Goto https://www.perforce.com/downloads/visual-merge-tool to download merge and diff tool.
+
+At the time of installation uncheck all the option except merge tool
+
+
+git config --global merge.tool p4merge(It will add the merge tool to git)
+git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"(It add the path where to look for the merge tool)
+git config --global mergetool.prompt false(It will set  the prompt to false so that no prompt will come)
+
+git config --global diff.tool p4merge
+git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+git config --global difftool.prompt false
