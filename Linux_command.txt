@@ -9,6 +9,7 @@
 5.  ps -ef|grep jpos(To know the running process)
 
 6   rm file name (will delete the mention file in the current directory)
+       rm -f (It will remove the file forcefully witout any prompt)
 
 7.  vi file name to open file in linux.
 
@@ -19,12 +20,14 @@
 				press :q! quit vi editor without saving the changes
 				press :w to save the changes
 				press :wq to save and quit the vi editor.
+				press:/ to search the word in the file and then press n for the next word.
 
 9.  esc+shift+g will jump to the end of the file
 
 10. gg will jump to the start of the file.
 
 11. rm -rf directory name (It will remove the mention directory without any prompt)
+        
 
 12. press i to modify file in vi mode after press esc and press :wq to save the changes.
 
@@ -63,6 +66,20 @@
 
                 1. touch filename1 filename2 filename3 (It will creat the filename1,filename2,filename3 if not exist otherwise it will change the time stamp of the file but not overwrite the file by default)	
 
-                2. 				
-					   
+                2. 	touch {a..z}(It will creat file from a to z)
+				
+20 grep Command:- It is used to search the text.
+
+                1. grep "text" filename(It will search the text in the given file)
+				2. grep -i "text" filename (It will skip the case)
+				3. grep -r "text" or  grep -R "text" (It will recursively search the given text in all the file and directory in the current working directory and also show 
+      			   the file name in which it found)
+				4. grep -rh "Text"(It will not show the file name)
+				5. grep -w "text" file it will search only for the seperate word privided.
+						 Example: grep "text" filename (It will search for all the word that has text in it like text1,text2,text3,text)
+						 grep -w "text" filename (It will match with the seperate word only not text1,text2)
+				6. grep -c "text" filename (It will give you the number of time the word appear in the file).
+				7. grep -n "text" filename. (It will give you the line number also where the searched word present).
+			    8. egrep -w "text|text1" filename. (It will search for two word text and text1).
+				9. grep -v "Text" filename(It will those line that does not contain given text)
 

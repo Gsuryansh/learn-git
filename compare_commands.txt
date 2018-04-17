@@ -7,11 +7,26 @@ GIT COMPARISION COMMAND:-
 							
 							
 				COMPARISION B/W WORKING DIRECTORY AND GIT LAST COMMIT:-			
-								1. git diff HEAD (It will tell the difference in warking directory and last commit)	
+								1. git diff HEAD (It will tell the difference in working directory and last commit)	
 
 								2. git difftool HEAD(It will open the diff tool for comparision)
 								
 				
                 COMPARISION B/W GIT STATGING AREA AND GIT LAST COMMIT:-		
                                 1. git diff --STAGED HEAD
-                                2. git difftool --STAGED HEAD 								
+                                2. git difftool --STAGED HEAD 	
+
+
+git diff -- filename (It will limit the git to show the difference of only mention file.)
+
+git log --oneline(It will show the history of commits)
+
+git diff commitid HEAD(It will show the difference b/w t commit id mention and the last commit)
+
+git diff HEAD HEAD^(It will compare head and head-1)	
+
+git diff commitid1 commitid2(It will show the difference b/w these two commit id's)
+
+git diff master origin/master(It will compare the last local commit to the last git hub commit)
+
+							
