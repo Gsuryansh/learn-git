@@ -44,4 +44,4 @@
 
 19 git checkout branch name(It wiil start pointing to the mention branch name)
 
-20 git push origin branch name (it will push the newly created branch to the remote directory)
+20 git push origin branch name (it will push the newly created branch to the remote directory and if it is already there the it will add the new changes to the branches)
