@@ -1,0 +1,5 @@
+git branch -a(It will show all the branch local as well as remote branch and it will put * on the current branch)
+
+git branch branch_name(It will create the new branch in the current branch with the name stated in the command)
+
+git checkout branch_name
